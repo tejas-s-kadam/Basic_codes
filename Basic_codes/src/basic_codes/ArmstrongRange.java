@@ -56,6 +56,7 @@ public class ArmstrongRange {
 			}
 		}
 	     
+		scanner.close(); // close scanner class
 
 	}
 
