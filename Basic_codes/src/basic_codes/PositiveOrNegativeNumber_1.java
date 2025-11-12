@@ -1,4 +1,4 @@
-/*
+/*1
 Problem Statement:
 
 Check whether a given number is positive, negative, or zero.
@@ -20,17 +20,19 @@ package basic_codes;
 
 import java.util.Scanner;  
 
-public class PositiveOrNegativeNumber {
+public class PositiveOrNegativeNumber_1 {
 
 	public static void main(String[] args) {
 
 		System.out.println("Enter a number: ");  // asking user to enter number
 		Scanner scanner = new Scanner(System.in);  // scanner class object to take input 
-
+		
+		
 		try  // to catch invalid entry
 		{
 			
 		float num = scanner.nextFloat();  //  taking float method 
+		//int num1 = scanner.nextInt();
 		
 		if (num > 0) // condition for positive number 
 		{
